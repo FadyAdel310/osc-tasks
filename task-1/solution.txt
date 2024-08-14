@@ -1,0 +1,13 @@
+mkdir fady
+touch fady/one.txt fady/two.txt fady/three.txt fady/four.txt
+mkdir BAD
+touch BAD/bad.txt
+mv fady/one.txt ~/Downloads
+cd ~/Downloads
+cp one.txt copy.txt
+cd -
+nano fady/two.txt
+echo 1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC >> fady/three.txt
+mv fady/three.txt fady/hello.txt
+rm fady/four.txt
+rm -r BAD
