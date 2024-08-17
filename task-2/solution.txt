@@ -1,0 +1,18 @@
+git config --global user.name FadyAdel310
+git config --global user.email fadyadel310forbusiness@gmail.com
+git clone https://github.com/FadyAdel310/osc-tasks.git
+cd ./osc-tasks
+mkdir task-2
+cd ./task-2
+touch greeting.txt
+echo "hello world" >> greeting.txt
+git add greeting.txt
+git commit -m "Added greeting"
+git checkout -b intro
+echo "I love Git" >> greeting.txt
+git add greeting.txt
+git commit -m "Added I love Git"
+git checkout main
+git merge intro
+git tag -a v1 -m "This is description of v1 release"
+git push origin main
