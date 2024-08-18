@@ -16,3 +16,4 @@ git checkout main
 git merge intro
 git tag -a v1 -m "This is description of v1 release"
 git push origin main
+git push origin v1
