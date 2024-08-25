@@ -1,0 +1,269 @@
+    PID CMD
+   1071 (sd-pam)
+    901 /sbin/agetty -o -p -- \u --noclear - linux
+      1 /sbin/init splash
+   1247 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+   1095 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    699 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1685 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   1487 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1094 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1365 /usr/bin/gnome-shell
+   2188 /usr/bin/gnome-text-editor /home/fady/Desktop/soltmp.txt
+   1194 /usr/bin/ibus-daemon --daemonize --xim
+   1876 /usr/bin/nautilus --gapplication-service
+   1089 /usr/bin/pipewire
+   1090 /usr/bin/pipewire -c filter-chain.conf
+   1093 /usr/bin/pipewire-pulse
+   1177 /usr/bin/ssh-agent /usr/bin/im-launch x-session-manager
+   1092 /usr/bin/wireplumber
+   2318 /usr/lib/chromium/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/fady/.config/chromium/Crash Reports --annotation=channel=built on Debian trixie/sid, running on Debian kali-rolling --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=124.0.6367.118 --initial-client-fd=5 --shared-client-connection
+   2320 /usr/lib/chromium/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/fady/.config/chromium/Crash Reports --annotation=channel=built on Debian trixie/sid, running on Debian kali-rolling --annotation=lsb-release=Kali GNU/Linux Rolling --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=124.0.6367.118 --initial-client-fd=4 --shared-client-connection
+   2301 /usr/lib/chromium/chromium --show-component-extension-options --enable-gpu-rasterization --no-default-browser-check --disable-pings --media-router=0 --enable-remote-extensions --load-extension
+   2351 /usr/lib/chromium/chromium --type=gpu-process --enable-gpu-rasterization --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2495 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=164002846 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2580 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=259241559 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2604 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=20 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=260310261 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2627 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=22 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=261797936 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2655 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=24 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=267004477 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2664 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=25 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=267015096 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2673 /usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1724592736782483 --launch-time-ticks=267029885 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2353 /usr/lib/chromium/chromium --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2363 /usr/lib/chromium/chromium --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,6370759470526892562,15358170497143425799,262144 --variations-seed-version
+   2325 /usr/lib/chromium/chromium --type=zygote --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable
+   2327 /usr/lib/chromium/chromium --type=zygote --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable
+   2324 /usr/lib/chromium/chromium --type=zygote --no-zygote-sandbox --crashpad-handler-pid=2318 --enable-crash-reporter=,built on Debian trixie/sid, running on Debian kali-rolling --change-stack-guard-on-fork=enable
+    701 /usr/lib/polkit-1/polkitd --no-debug
+   1070 /usr/lib/systemd/systemd --user
+    392 /usr/lib/systemd/systemd-journald
+    706 /usr/lib/systemd/systemd-logind
+    638 /usr/lib/systemd/systemd-timesyncd
+    430 /usr/lib/systemd/systemd-udevd
+    900 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+    697 /usr/libexec/accounts-daemon
+   1225 /usr/libexec/at-spi-bus-launcher
+   1263 /usr/libexec/at-spi2-registryd --use-gnome-session
+    830 /usr/libexec/boltd
+   1434 /usr/libexec/colord
+   1394 /usr/libexec/dconf-service
+   1795 /usr/libexec/evolution-addressbook-factory
+   1744 /usr/libexec/evolution-calendar-factory
+   1584 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1482 /usr/libexec/evolution-source-registry
+   1312 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   1114 /usr/libexec/gnome-session-binary
+   1335 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+   1314 /usr/libexec/gnome-session-ctl --monitor
+   1473 /usr/libexec/gnome-shell-calendar-server
+   2143 /usr/libexec/gnome-terminal-server
+   1732 /usr/libexec/goa-daemon
+   1758 /usr/libexec/goa-identity-service
+   1523 /usr/libexec/gsd-a11y-settings
+   1525 /usr/libexec/gsd-color
+   1530 /usr/libexec/gsd-datetime
+   1594 /usr/libexec/gsd-disk-utility-notify
+   1538 /usr/libexec/gsd-housekeeping
+   1539 /usr/libexec/gsd-keyboard
+   1549 /usr/libexec/gsd-media-keys
+   1550 /usr/libexec/gsd-power
+   1552 /usr/libexec/gsd-print-notifications
+   1659 /usr/libexec/gsd-printer
+   1555 /usr/libexec/gsd-rfkill
+   1560 /usr/libexec/gsd-screensaver-proxy
+   1563 /usr/libexec/gsd-sharing
+   1564 /usr/libexec/gsd-smartcard
+   1566 /usr/libexec/gsd-sound
+   1569 /usr/libexec/gsd-usb-protection
+   1570 /usr/libexec/gsd-wacom
+   1572 /usr/libexec/gsd-xsettings
+   1761 /usr/libexec/gvfs-afc-volume-monitor
+   1773 /usr/libexec/gvfs-goa-volume-monitor
+   1780 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1796 /usr/libexec/gvfs-mtp-volume-monitor
+   1577 /usr/libexec/gvfs-udisks2-volume-monitor
+   1206 /usr/libexec/gvfsd
+   1215 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   1956 /usr/libexec/gvfsd-metadata
+   2000 /usr/libexec/gvfsd-recent --spawner :1.17 /org/gtk/gvfs/exec_spaw/1
+   1880 /usr/libexec/gvfsd-trash --spawner :1.17 /org/gtk/gvfs/exec_spaw/0
+   1217 /usr/libexec/ibus-dconf
+   1297 /usr/libexec/ibus-engine-simple
+   1222 /usr/libexec/ibus-extension-gtk3
+   1233 /usr/libexec/ibus-portal
+   1219 /usr/libexec/ibus-ui-gtk3
+   1230 /usr/libexec/ibus-x11 --kill-daemon
+   1432 /usr/libexec/mutter-x11-frames
+   1324 /usr/libexec/power-profiles-daemon
+    964 /usr/libexec/rtkit-daemon
+   1827 /usr/libexec/tracker-miner-fs-3
+   1638 /usr/libexec/udisks2/udisksd
+   1489 /usr/libexec/upowerd
+   1265 /usr/libexec/xdg-desktop-portal
+   1292 /usr/libexec/xdg-desktop-portal-gtk
+   1273 /usr/libexec/xdg-document-portal
+   1277 /usr/libexec/xdg-permission-store
+    826 /usr/sbin/ModemManager
+    805 /usr/sbin/NetworkManager --no-daemon
+    698 /usr/sbin/cron -f
+    637 /usr/sbin/haveged --Foreground --verbose=1
+    887 /usr/sbin/lightdm
+   2404 /usr/sbin/pcscd --foreground --auto-exit
+    703 /usr/sbin/smartd -n
+    880 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+    283 [card0-crtc0]
+    284 [card0-crtc1]
+    285 [card0-crtc2]
+    286 [card0-crtc3]
+     20 [cpuhp/0]
+     21 [cpuhp/1]
+     27 [cpuhp/2]
+     33 [cpuhp/3]
+     39 [cpuhp/4]
+     45 [cpuhp/5]
+     51 [cpuhp/6]
+     57 [cpuhp/7]
+     98 [hwrng]
+     19 [idle_inject/0]
+     22 [idle_inject/1]
+     28 [idle_inject/2]
+     34 [idle_inject/3]
+     40 [idle_inject/4]
+     46 [idle_inject/5]
+     52 [idle_inject/6]
+     58 [idle_inject/7]
+     95 [irq/124-pciehp]
+    511 [irq/190-mei_me]
+    603 [irq/192-iwlwifi:default_queue]
+    604 [irq/193-iwlwifi:queue_1]
+    605 [irq/194-iwlwifi:queue_2]
+    606 [irq/195-iwlwifi:queue_3]
+    610 [irq/196-iwlwifi:queue_4]
+    612 [irq/197-iwlwifi:queue_5]
+    613 [irq/198-iwlwifi:queue_6]
+    614 [irq/199-iwlwifi:queue_7]
+    615 [irq/200-iwlwifi:queue_8]
+    616 [irq/201-iwlwifi:exception]
+    915 [irq/202-nvidia]
+    267 [irq/44-ELAN1205:00]
+     80 [irq/9-acpi]
+    333 [jbd2/nvme0n1p9-8]
+     70 [kauditd]
+     74 [kcompactd0]
+     68 [kdevtmpfs]
+     76 [khugepaged]
+     71 [khungtaskd]
+     75 [ksmd]
+     16 [ksoftirqd/0]
+     24 [ksoftirqd/1]
+     30 [ksoftirqd/2]
+     36 [ksoftirqd/3]
+     42 [ksoftirqd/4]
+     48 [ksoftirqd/5]
+     54 [ksoftirqd/6]
+     60 [ksoftirqd/7]
+     86 [kswapd0]
+      2 [kthreadd]
+      9 [kworker/0:0H-events_highpri]
+   2708 [kworker/0:0]
+     85 [kworker/0:1H-kblockd]
+    428 [kworker/0:2-events]
+   1045 [kworker/0:3-events]
+     26 [kworker/1:0H-events_highpri]
+   3092 [kworker/1:0]
+    170 [kworker/1:1-events]
+    242 [kworker/1:1H-events_highpri]
+    272 [kworker/1:2-events]
+     31 [kworker/2:0-events]
+     32 [kworker/2:0H-events_highpri]
+    241 [kworker/2:1H-events_highpri]
+    276 [kworker/2:2-i915-unordered]
+     38 [kworker/3:0H-events_highpri]
+   2996 [kworker/3:0]
+    172 [kworker/3:1-mm_percpu_wq]
+    214 [kworker/3:1H-events_highpri]
+    240 [kworker/3:2-mm_percpu_wq]
+     44 [kworker/4:0H-events_highpri]
+   3110 [kworker/4:0]
+    100 [kworker/4:1H-events_highpri]
+    131 [kworker/4:2-i915-unordered]
+    488 [kworker/4:5-i915-unordered]
+   3115 [kworker/5:0-events]
+     50 [kworker/5:0H-events_highpri]
+     97 [kworker/5:1-mm_percpu_wq]
+    238 [kworker/5:1H-events_highpri]
+    116 [kworker/5:2-events]
+     55 [kworker/6:0-events]
+     56 [kworker/6:0H-events_highpri]
+    171 [kworker/6:1-cgroup_destroy]
+    203 [kworker/6:1H-events_highpri]
+   2772 [kworker/6:2]
+     61 [kworker/7:0-events]
+     62 [kworker/7:0H-events_highpri]
+   2725 [kworker/7:1-events]
+    201 [kworker/7:1H-events_highpri]
+   1362 [kworker/7:3-events]
+    579 [kworker/R-USBC0]
+     96 [kworker/R-acpi_]
+    506 [kworker/R-asus_]
+     79 [kworker/R-blkcg]
+    577 [kworker/R-cfg80]
+    115 [kworker/R-crypt]
+     84 [kworker/R-devfr]
+     83 [kworker/R-edac-]
+    334 [kworker/R-ext4-]
+     69 [kworker/R-inet_]
+    101 [kworker/R-ipv6_]
+     78 [kworker/R-kbloc]
+     77 [kworker/R-kinte]
+    106 [kworker/R-kstrp]
+     93 [kworker/R-kthro]
+    593 [kworker/R-led_w]
+     99 [kworker/R-mld]
+     12 [kworker/R-mm_pe]
+      7 [kworker/R-netns]
+    287 [kworker/R-nvme-]
+    288 [kworker/R-nvme-]
+    289 [kworker/R-nvme-]
+      4 [kworker/R-rcu_g]
+      5 [kworker/R-rcu_p]
+    669 [kworker/R-rpcio]
+      6 [kworker/R-slub_]
+     82 [kworker/R-tpm_d]
+    279 [kworker/R-ttm]
+     73 [kworker/R-write]
+    670 [kworker/R-xprti]
+     11 [kworker/u16:0-events_unbound]
+     64 [kworker/u16:1-i915]
+     65 [kworker/u16:2-flush-259:0]
+     66 [kworker/u16:3-asus_wireless_workqueue]
+    110 [kworker/u17:0+i915_flip]
+    647 [kworker/u17:1-rb_allocator]
+   2728 [kworker/u17:2]
+     18 [migration/0]
+     23 [migration/1]
+     29 [migration/2]
+     35 [migration/3]
+     41 [migration/4]
+     47 [migration/5]
+     53 [migration/6]
+     59 [migration/7]
+    672 [nv_queue]
+    673 [nv_queue]
+    917 [nv_queue]
+    680 [nvidia-modeset/deferred_close_kthread_q]
+    679 [nvidia-modeset/kthread_q]
+    916 [nvidia]
+     72 [oom_reaper]
+      3 [pool_workqueue_release]
+    437 [psimon]
+    933 [psimon]
+     17 [rcu_preempt]
+     13 [rcu_tasks_kthread]
+     14 [rcu_tasks_rude_kthread]
+     15 [rcu_tasks_trace_kthread]
+    508 [watchdogd]
+   1285 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   1939 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+   1061 lightdm --session-child 13 24
+   3157 ps -e -o pid,cmd --sort=cmd
+   2153 zsh
